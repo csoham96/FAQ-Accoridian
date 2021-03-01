@@ -39,17 +39,27 @@ export class AppComponent {
   isCollapsed3: boolean=true;
   isCollapsed4: boolean=true;
   isCollapsed5: boolean=true;
+  bold1: string=""
   variable1:string=""
   variable2: string="";
   variable3: string="";
   variable4: string="";
   variable5: string="";
+  bold2: string="";
+  bold3: string="";
+  bold4: string="";
+  bold5: string="";
   toggle1(){
     this.isCollapsed1=!this.isCollapsed1;
     if(this.variable1==="" ||this.variable1==="rotate360")
     this.variable1="rotate";
      else{
        this.variable1="rotate360"
+     }
+     if(this.bold1==="" )
+    this.bold1="bold1";
+     else{
+       this.bold1=""
      }
   }
 toggle2(){
@@ -59,6 +69,11 @@ toggle2(){
      else{
        this.variable2="rotate360"
      }
+     if(this.bold2==="" )
+     this.bold2="bold1";
+      else{
+        this.bold2=""
+      }
 }
 toggle3(){
   this.isCollapsed3=!this.isCollapsed3;
@@ -67,6 +82,11 @@ toggle3(){
      else{
        this.variable3="rotate360"
      }
+     if(this.bold3==="" )
+     this.bold3="bold1";
+      else{
+        this.bold3=""
+      }
 }
 toggle4(){
   this.isCollapsed4=!this.isCollapsed4;
@@ -75,6 +95,11 @@ toggle4(){
      else{
        this.variable4="rotate360"
      }
+     if(this.bold4==="" )
+     this.bold4="bold1";
+      else{
+        this.bold4=""
+      }
 }
 toggle5(){
   this.isCollapsed5=!this.isCollapsed5;
@@ -83,6 +108,11 @@ toggle5(){
      else{
        this.variable5="rotate360"
      }
+     if(this.bold5==="" )
+     this.bold5="bold1";
+      else{
+        this.bold5=""
+      }
 }
 
 
