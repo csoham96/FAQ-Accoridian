@@ -51,11 +51,11 @@
       </div>
 
       <div class="question-answer__accordion">
-          <div class="question">
+          <div class="question" (click)="toggle4()">
               <h3 class="title__question" [ngClass]="bold4">
                   Can I cancel my subscription?
               </h3>
-              <img src="../assets/images/icon-arrow-down.svg"(click)="toggle4()" [ngClass]="variable4"  >
+              <img src="../assets/images/icon-arrow-down.svg" [ngClass]="variable4"  >
           </div>
           <div class="answer" *ngIf="!isCollapsed4"
           [@inOutAnimation] >
@@ -64,11 +64,11 @@
       </div>
       
       <div class="question-answer__accordion">
-          <div class="question">
+          <div class="question" (click)="toggle5()">
               <h3 class="title__question" [ngClass]="bold5"  >
                   Do you provide additional support?
               </h3>
-              <img src="../assets/images/icon-arrow-down.svg" (click)="toggle5()" [ngClass]="variable5">
+              <img src="../assets/images/icon-arrow-down.svg"  [ngClass]="variable5">
           </div>
           <div class="answer"*ngIf="!isCollapsed5"
           [@inOutAnimation]  >
