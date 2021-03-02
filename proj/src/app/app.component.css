@@ -9,16 +9,23 @@
   margin: 0;
   font-family: "Kumbh Sans", sans-serif;
   height: 100vh;
-  width: 100vw;
+ max-width: 100vw;
   background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   display: grid;
   justify-content: center;
   align-content: center;
   box-sizing: border-box;
   font-size: 12px;
+  --softRed: hsl(14, 88%, 65%);
+  --veryDarkGrayBlue: hsl(237, 12%, 33%);
+  --darkGrayBlue: hsl(240, 6%, 50%);
+  --lightGrayBlue: hsl(240, 5%, 91%);
+  --fontSize: 12px;
+
 }
 
 .wrapper {
+  font-size: var(--fontSize) !important;
   background: white;
   border-radius: 30px;
   height: 509px;
@@ -69,13 +76,13 @@
   border-bottom: 1px solid #e8e8ea;
 }
 .title__accordion {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-top: 0px;
 }
 
 .title__question {
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 14px;
   color: (var(--veryDarkGrayBlue));
   margin: 1.4rem 0rem;
 }

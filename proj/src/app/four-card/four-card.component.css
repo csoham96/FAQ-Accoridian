@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+.four-card-body{
+    font-family: "Poppins", sans-serif;
+};
+h1{
+    font-weight: 200;
+}
+ p{
+    color: hsl(229, 6%, 66%);
+}
+.container{
+    display:flex ;
+   max-width: 1784px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content:  center;
+}
+.box{
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 5%), 0 6px 6px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 12px;
+    width: 300px;
+    height: 200px;
+
+}
+.box img{
+    margin-left: auto;
+    display: block;
+}
+.box::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 100%;
+     
+}
+box h2{
+    margin:  0;
+}
+.box p{
+     font-size: 14px;
+     margin: 15px 0 30px;
+ }
+ 
+ .box-cyan::after{
+    background-color:  hsl(180, 62%, 55%)
+ }
+ .box-red::after{
+    background-color:   hsl(0, 78%, 62%)
+ }
+ .box-blue::after{
+    background-color:  hsl(212, 86%, 64%)
+ }
+ .box-yellow::after{
+    background-color:hsl(34, 97%, 64%)
+ }
+  .box-push{
+transform: translateY(50%);
+ } 

@@ -61,6 +61,8 @@ export class AppComponent {
      else{
        this.bold1=""
      }
+    
+     
   }
 toggle2(){
   this.isCollapsed2=!this.isCollapsed2;
@@ -74,6 +76,7 @@ toggle2(){
       else{
         this.bold2=""
       }
+    
 }
 toggle3(){
   this.isCollapsed3=!this.isCollapsed3;

@@ -1,16 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-:root {
-    --softRed: hsl(14, 88%, 65%);
-    --veryDarkGrayBlue: hsl(237, 12%, 33%);
-    --darkGrayBlue: hsl(240, 6%, 50%);
-    --lightGrayBlue: hsl(240, 5%, 91%);
-    --fontSize: 12px;
-  }
-  
-  
-  html {
-    font-size: var(--fontSize);
-  }
-  
+
 
   
