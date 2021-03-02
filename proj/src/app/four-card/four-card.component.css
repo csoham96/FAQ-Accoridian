@@ -46,7 +46,7 @@ box h2{
 }
 .box p{
      font-size: 14px;
-     margin: 15px 0 30px;
+     margin: 15px 0 40px;
  }
  
  .box-cyan::after{
@@ -64,3 +64,9 @@ box h2{
   .box-push{
 transform: translateY(50%);
  } 
+ @media(
+     max-width: 786px ){
+         .box-push{
+             transform: translateY(0);
+         }
+     }
