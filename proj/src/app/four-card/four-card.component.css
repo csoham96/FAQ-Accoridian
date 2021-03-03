@@ -65,7 +65,7 @@ box h2{
 transform: translateY(50%);
  } 
  @media(
-     max-width: 786px ){
+     max-width: 1169px ){
          .box-push{
              transform: translateY(0);
          }
