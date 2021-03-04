@@ -43,7 +43,7 @@ form.error input[type="email"] {
 	border-color: hsl(354, 100%, 66%);
 	margin-bottom: 30px;
 }
-form .error_text {
+form div.invalid-feedback {
 	position: absolute;
 	top: 70px;
 	font-size: .95rem;
