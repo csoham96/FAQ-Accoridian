@@ -12,7 +12,7 @@ import { FaqComponent } from './faq/faq.component'
 const appRoutes :Routes=[
   {path: 'four-card',component: FourCardComponent},
   {path: 'ping-coming-soon',component:PingComingSoonComponent},
-  {path: 'faq',component:FaqComponent},
+  {path: '',component:FaqComponent},
 ]
 @NgModule({
   declarations: [
