@@ -30,9 +30,9 @@ import { trigger, state, animate, transition } from '@angular/animations';
     )
   ]
 })
-export class FaqComponent implements OnInit {
+export class FaqComponent  {
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+   
   }
   title = 'proj';
   path = ''
