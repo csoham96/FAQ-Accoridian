@@ -4,6 +4,9 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+input.ng-invalid.ng-touched{
+	border: 1px  solid red !important;
+}
 .body{
 	font-family: 'Libre Franklin', sans-serif;
 	font-size: 20px;
@@ -39,11 +42,11 @@ form {
 	width: 100%;
 	position: relative;
 }
-form.error input[type="email"] {
+ input[type="email"] {
 	border-color: hsl(354, 100%, 66%);
 	margin-bottom: 30px;
 }
-form div.invalid-feedback {
+span.help-text {
 	position: absolute;
 	top: 70px;
 	font-size: .95rem;

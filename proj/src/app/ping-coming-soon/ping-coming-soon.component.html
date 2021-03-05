@@ -34,7 +34,10 @@ text-align: center;">
       <input type="email" id ="email"
        placeholder="Your email address..."
         ngModel name="email" 
-        required >
+        required 
+        email
+        #email="ngModel">
+        <span class="help-text" *ngIf="!email.valid && email.touched" >Please Enter a Valid email</span>
       <button type="submit">Notify Me</button>
     </form>
     <img src="../../assets/ping-images/illustration-dashboard.png" alt="hero-img" class="hero-img">
